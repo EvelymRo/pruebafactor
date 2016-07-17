@@ -583,7 +583,7 @@
 					<h3 class="tittle wow bounceIn"  data-wow-duration=".8s" data-wow-delay=".2s">Contacto</h3>
 						<div class="arrows-three"><img src="images/border.png" alt="border"></div>
 							<p class="wel-text wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".4s">Tu opinión es muy importante para nosotros.</p>
-						<form action="contacto.php" role="form" id="contact-form" method="post">
+						<form method="POSt" name="contact-form" id="contact-form" action="./" >
 					  		<div class="field name-box">
 							<input name="name" type="text" id="name" placeholder="Tu nombre y apellido" required="true"/>
 							<label for="name">Nombre</label>
@@ -604,6 +604,7 @@
 							<div class="send wow shake"  data-wow-duration="1s" data-wow-delay=".3s">
 								<input type="submit" value="Send" >
 							</div>
+							<div id="respuesta" style="display: none;"></div>
 					 	</form>
 					</div>
 

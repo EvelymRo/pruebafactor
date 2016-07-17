@@ -1,21 +1,19 @@
 <?php
+require 'PHPMailer/PHPMailerAutoload.php';
+$mail = new PHPMailer;
+$to = "evelym.digital@gmail.com"; // Nuestro correo de contacto
+// recogeremos los datos del formulario
 $nombre = $_POST['name'];
-$mail = $_POST['email'];
-
-$header = 'From: ' . $mail . " \r\n";
-$header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
-$header .= "Mime-Version: 1.0 \r\n";
-$header .= "Content-Type: text/plain";
-
-$mensaje = "Este mensaje fue enviado por " . $nombre;
-$mensaje .= "Su e-mail es: " . $mail . " \r\n";
-$mensaje .= "Mensaje: " . $_POST['msg'] . " \r\n";
-$mensaje .= "Enviado el " . date('d/m/Y', time());
-
-$para = 'evelym.digital@gmail.com';
-$asunto = 'Contacto desde fondadelfactor.mx';
-
-mail($para, $asunto, utf8_decode($mensaje), $header);
-
-echo 'Mensaje enviado correctamente';
+$email = $_POST['email'];
+$mensaje = nl2br($_POST['msg']);
+if($nombre == "" || $email == "" || $mensaje == ""):
+	echo '<div class="alert alert-danger">Todos los campos son requeridos para el envio</div>';
+else:
+	$mail->From = $email;
+	$mail->addAddress($to);
+	$mail->isHtml(true);
+	$mail->Body = '<strong>'.$nombre.'</strong> le ha contactado desde su web, y le ha enviado el siguiente mensaje: <br><p>'.$mensaje.'</p>';
+	$mail->CharSet = 'UTF-8';
+	$mail->send();
+endif;
 ?>
