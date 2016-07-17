@@ -1,0 +1,684 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="images/logo2.png">
+	<link rel="icon" type="image/png" href="images/logo2.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<title>Fonda del Factor</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+	<!--     Fonts and icons     -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+ 	<!-- enlazando contacto -->
+ 	<!-- <link rel="stylesheet" type="text/php" href="contacto.php/"> -->
+	<!-- script -->
+
+	<script type="applisalonion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<!-- Custom Theme files -->
+	<link href="css/material-kit.css" rel="stylesheet"/>
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link href="css/iconeffects.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel='stylesheet' type='text/css' />	
+	<!-- swipebox es para las imagenes al ser seleccionadas -->
+	<link rel="stylesheet" type="text/css" href="css/swipebox.css">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+<!-- swipe box js -->
+	<script src="js/jquery.swipebox.min.js"></script> 
+	    <script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+	</script>
+<!-- //swipe box js -->
+<!--animate-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+	<script>
+		 new WOW().init();
+	</script>
+
+</head>
+<body>
+<!--start-home-->
+	<div class="banner banner-filter" id="home">
+		<div class="header-bottom wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">
+		     <div class="container">
+			  <div class="fixed-header">
+			      <!--logo-->
+			       <div class="logo">
+                      <a href="index.html"><img src="images/headlogo.png" alt="logotipo" width="350" height="auto"></a>
+				   </div>
+					<!--//logo-->
+					<div class="top-menu">
+						<span class="menu"> </span>
+						<nav class="link-effect-4" id="link-effect-4">
+                             <ul>
+							<li class="active"><a data-hover="historia" href="historia.html">Historia</a></li>
+							<li><a data-hover="Menú" href="#menu" class="scroll">Menú</a></li>
+							<li><a data-hover="Reservación" href="#contact" class="scroll">Reservación</a></li>
+							<li><a data-hover="Galería" href="#galeria" class="scroll">Galería</a></li>
+							<li><a data-hover="blog" href="#aquidirecciondelblog" target="_blank" class="scroll">Blog</a></li>
+							<li><a href="https://www.facebook.com/" target="_blank" class="btn btn-simple"><i class="fa fa-facebook"></i></a></li>
+            				<li><a href="https://www.instagram.com/" target="_blank" class="btn btn-simple"><i class="fa fa-instagram"></i></a></li>
+							</ul>
+						</nav>
+					</div>
+							<!-- script-for-menu -->
+								<script>
+									$("span.menu").click(function(){
+										$(".top-menu ul").slideToggle("slow" , function(){
+										});
+									});
+								</script>
+								<!-- script-for-menu -->
+
+				 <div class="clearfix"></div>
+					<script>
+				$(document).ready(function() {
+					 var navoffeset=$(".header-bottom").offset().top;
+					 $(window).scroll(function(){
+						var scrollpos=$(window).scrollTop(); 
+						if(scrollpos >=navoffeset){
+							$(".header-bottom").addClass("fixed");
+						}else{
+							$(".header-bottom").removeClass("fixed");
+						}
+					 });
+					 
+				});
+				</script>
+			 </div>
+		</div>
+	</div>
+</div>
+	<section class="tipo-baner">
+	<div class="sreen-gallery-cursual">
+							 <!-- required-js-files-->
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+							        <script>
+							    $(document).ready(function() {
+							      $("#owl-demo").owlCarousel({
+							        items : 1,
+							        lazyLoad : true,
+							        autoPlay : true,
+							        navigation : false,
+							        navigationText :  false,
+							        pagination : true,
+							      });
+							    });
+							    </script>
+								 <!--//required-js-files-->
+						       <div id="owl-demo" class="owl-carousel">
+					                 <div class="item-owl">
+					                		<div class="test-review">
+											   <p class="wow fadeInUp"  data-wow-duration=".8s" data-wow-delay=".4s"><img src="images/left-quotes.png" alt=""> Si quieres agregar frases descriptivas del restaurant o frases, lemas.(es opcional al diseño). <img src="images/right-quotes.png" alt=""></p>
+						                	  <img class="img-responsive" alt=""/>
+											  <h5 class="wow bounceIn"  data-wow-duration=".8s" data-wow-delay=".2s">Fonda del Factor</h5>
+					                	    </div>
+					                </div>
+					                 <div class="item-owl">
+					                	<div class="test-review">
+										 <p class="wow fadeInUp"  data-wow-duration=".8s" data-wow-delay=".4s"> <img src="images/left-quotes.png" alt=""> Otra frase, lema o texto firmado el restaurant o chef o personal.<img src="images/right-quotes.png" alt=""></p>
+						                	<img class="img-responsive" alt=""/>
+											 <h5 class="wow bounceIn"  data-wow-duration=".8s" data-wow-delay=".2s">Martha Chacón</h5>
+					                	</div>
+					                </div>
+					                 <div class="item-owl">
+					                	<div class="test-review">
+										     <p class="wow fadeInUp"  data-wow-duration=".8s" data-wow-delay=".4s"><img src="images/left-quotes.png" alt=""> Y si pueden ser más de tres frases. <img src="images/right-quotes.png" alt=""></p>
+						                	<img class="img-responsive" alt=""/>
+											 <h5 class="wow bounceIn"  data-wow-duration=".8s" data-wow-delay=".2s">Evelym Rodríguez</h5>
+					                	</div>
+					                </div>
+				              </div>
+				            </div>
+				        </section>
+		
+	  	<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager:true,
+			        nav:false,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+	      <!--banner Slider starts Here-->
+
+		 </div>
+	</div>
+
+<!--/products-->
+		  <div class="Historia" id="historia">
+		     <div class="container">
+			 <!--/about-section-->
+			   <div class="historia-section">
+				<div class="col-md-7 ab-left">
+				  <div class="grid">
+			        <div class="h-f wow slideInLeft"  data-wow-duration="1s" data-wow-delay=".2s">
+					<figure class="effect-jazz">
+					<img src="images/food.png" alt="comida"/>
+						<figcaption>
+							<h4> <span>Fonda del Factor</span></h4>
+							<p>Cocina tradicional mexicana</p>	
+						</figcaption>			
+					</figure>
+					
+				 </div>
+				 <div class="h-f wow slideInLeft"  data-wow-duration="1s" data-wow-delay=".2s">
+					<figure class="effect-jazz">
+						<img src="images/s2.jpg" alt="img25"/>
+						<figcaption>
+							<h4><span>Fonda del Factor</span></h4>
+							<p>Sazón y corazón.</p>
+							
+						</figcaption>			
+					</figure>
+					
+				 </div>
+				 <div class="clearfix"> </div>
+				 </div>
+			   </div>
+			   <div class="col-md-5 ab-text">
+			             <h3 class="tittle wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">Bienvenidos</h3>
+						  <div class="arrows-two wow slideInDown"  data-wow-duration="1s" data-wow-delay=".5s"><img src="images/border.png" alt="border"/></div>
+						  <p class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">Cocina tradicional mexicana de alta calidad. Entre los platillos tradicionales de Fonda del Factor, se encuentra el exquisito estofado de boda, nuestros famosos moles, el pollo estilo Aguascalientes y las deliciosas enchiladas Juchitecas.</p>
+
+					</div>
+					<div class="clearfix"> </div>
+			 </div>
+			  <!--//about-section-->
+			  <!--/about-section2-->
+			   <div class="historia-section">
+			        <div class="col-md-5 ab-text two">
+			             <h3 class="tittle wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">Tradición y calidad.</h3>
+						 <div class="arrows-two wow slideInDown"  data-wow-duration="1s" data-wow-delay=".5s"><img src="images/border.png" alt="border"/></div>
+						  <p class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">Siendo personas acostumbradas al buen comer desde temprana edad, su pasión y deleite por la gastronomía fue enriqueciendo sus paladares cada vez más exigentes. Así, a principios de la década de los años 70, el Sr. Félix Blando y el Sr. Saulo Claro Martín del Campo, abogado de profesión, deciden compartir el gusto de disfrutar de la buena mesa y la preparación de exquisitas recetas de nuestra tradicional cocina mexicana. 
+						  </p>
+						 <div class="start wow flipInX"  data-wow-duration="1s" data-wow-delay=".3s">
+						     <a href="historia.html" class="hvr-bounce-to-bottom">Leer más</a>
+						  </div>
+
+					</div>
+						<div class="col-md-7 ab-left">
+				  <div class="grid">
+			        <div class="h-f  wow slideInRight"  data-wow-duration="1s" data-wow-delay=".2s">
+					<figure class="effect-jazz">
+					<img src="images/s4.jpg" alt="img25"/>
+						<figcaption>
+							<h4><span>Fonda del Factor</span></h4>
+							<p>Descripción o nombre de la foto "Pizza"</p>
+							
+						</figcaption>			
+					</figure>
+					
+				 </div>
+				 <div class="h-f  wow slideInRight"  data-wow-duration="1s" data-wow-delay=".2s">
+					<figure class="effect-jazz">
+						<img src="images/s3.jpg" alt="img25"/>
+						<figcaption>
+							<h4><span>Fonda del Factor</span></h4>
+							<p>Carne y verduras.</p>
+						</figcaption>			
+					</figure>
+					
+				 </div>
+				 <div class="clearfix"> </div>
+				 </div>
+			   </div>
+					<div class="clearfix"> </div>
+			 </div>
+			  <!--//about-section2-->
+			</div>
+	     </div>
+<!--//products-->
+<!-- menu-type-grid -->
+	<div class="menu" id="menu">
+		<div class="container">
+		    <h3 class="tittle">Nuestro Menú</h3>
+			<div class="arrows-serve"><img src="images/border.png" alt="border"></div>
+				<div class="inst-grids">
+					<div class="col-md-3 menu-gd text-center wow slideInLeft"  data-wow-duration="1s" data-wow-delay=".3s">
+						<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+							<a href="#aqui el link del pdf del menu de alimentos" class="hi-icon"><img src="images/menu.png" alt=" " /></a>
+						</div>
+						<h4>Menú de alimentos</h4>
+						 <p>Déjate deleitar con una de nuestras diversas especialidades.</p>
+					</div>
+					<div class="col-md-3 menu-gd text-center wow slideInDown"  data-wow-duration="1s" data-wow-delay=".2s">
+						<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+							<a href="#aqui el link del pdf de bebidas" class="hi-icon"><img src="images/bebida.png" alt=" " /></a>
+						</div>
+						<h4>Menú de bebidas</h4>
+						 <p>Exquisita selección de bebidas para acompañar tus alimentos.</p>
+					</div>
+					<div class="col-md-3 menu-gd text-center wow slideInUp"  data-wow-duration="1s" data-wow-delay=".2s">
+						<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+							<a target="_blank" href="pdf/postres.pdf" class="hi-icon"><img src="images/postre.png" alt="icono menu" /></a>
+						</div>
+						<h4>Menú de postres</h4>
+						 <p>Disfrute de nuestra selección de postres.</p>
+					</div>
+					<div class="col-md-3 menu-gd text-center wow slideInRight"  data-wow-duration="1s" data-wow-delay=".3s">
+						<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+							<a href="#contact" class="hi-icon"><img src="images/reservacion.png" alt=" " /></a>
+						</div>
+						<h4>Reservación</h4>
+						 <p>Lorem ipsum Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit.</p>
+					</div>
+					<div class="clearfix"> </div>		
+				</div>
+
+		</div>
+	</div>
+<!-- //service-type-grid -->
+ <!--start-menu-->
+	<div class="team-section" id="team">
+	 	  <div class="container">
+		  <h3 class="tittle">Nuestro Personal</h3>
+		  <div class="arrows-serve"><img src="images/border.png" alt="border"></div>
+	 		<div class="box2">
+	 		   <div class="col-md-3 s-1 wow slideInLeft" data-wow-duration="1s" data-wow-delay=".3s">
+			   <a href="#">
+	 		   	<div class="view view-fifth">
+                    <img src="images/chef1.jpg" alt="chef">
+                    <div class="mask">
+                        <h4>Descripción o si lo prefieres otra sección de relleno de la pagina, no como sección de otra link</h4>
+                        <p>mas texto... mas texto...</p>
+                         <p class="p2">y más texto.. texto... texto.</p>
+                     </div>
+                   
+				    </div>
+				  </a>
+			<h3>CARLOS</h3>
+				</div>
+		<div class="col-md-3 s-2 wow slideInLeft" data-wow-duration="1s" data-wow-delay=".3s">
+		<a href="#">
+	 		   	<div class="view view-fifth">
+                      <img src="images/chef2.jpg" alt="chef">
+                       <div class="mask">
+                        <h4>Vivamus moles tie gravida turpis</h4>
+                        <p>A wonderful serenity has taken possession of my entire soul,  I enjoy with my whole heart.</p>
+                         <p class="p2">A wonderful serenity has taken possession of my entire soul, I enjoy with my whole heart.</p>
+                     </div>
+               
+				    </div>
+				  </a>
+				<h3>MARTHA</h3>
+				</div>
+			  <div class="col-md-3 s-3 wow slideInRight" data-wow-duration="1s" data-wow-delay=".3s">
+			  <a href="#">
+	 		   	<div class="view view-fifth">
+                     <img src="images/chef3.jpg" alt="chef">
+                    <div class="mask">
+                        <h4>Vivamus moles tie gravida turpis</h4>
+                        <p>A wonderful serenity has taken possession of my entire soul,  I enjoy with my whole heart.</p>
+                         <p class="p2">A wonderful serenity has taken possession of my entire soul, I enjoy with my whole heart.</p>
+                     </div>
+                  
+				    </div>
+				  </a>
+					<h3>Mr.jazz</h3>
+				</div>
+				<div class="col-md-3 s-4 wow slideInRight" data-wow-duration="1s" data-wow-delay=".3s">
+				 <a href="#">
+	 		   	 <div class="view view-fifth">
+                      <img src="images/chef4.jpg" alt="chef">
+                    <div class="mask">
+                        <h4>Vivamus moles tie gravida turpis</h4>
+                        <p>A wonderful serenity has taken possession of my entire soul,  I enjoy with my whole heart.</p>
+                         <p class="p2">A wonderful serenity has taken possession of my entire soul, I enjoy with my whole heart.</p>
+                     </div>
+                   
+				    </div>
+				  </a>
+					<h3>Rosie Wilson</h3>
+				</div>
+				<div class="clearfix"></div>
+		     </div>
+	 	    </div>
+	 	</div>
+	<!--end-team-->
+
+				<div class="clearfix"> </div>
+		</div>
+<!--//reviews-->
+<!--reservacion-->
+	<!-- <div class="reservacion" id="reservacion">
+		<div class="container">
+		<div class="reservacion-info">
+		  <h3 class="tittle reserve">Haz tu <br>
+			Reservación</h3>
+			 <div class="arrows-reserve"><img src="images/border.png" alt="border"></div>
+				<div class="book-reservacion wow slideInUp" data-wow-duration="1s" data-wow-delay=".5s">
+					<form>
+					 <div class="col-md-4 form-left">
+						<label><i class="glyphicon glyphicon-calendar"></i> Día :</label>
+						<input type="date">
+						</div>
+						<div class="col-md-4 form-left">
+							<label><i class="glyphicon glyphicon-user"></i> No.de personas :</label>
+							<select class="form-control">
+								<option>1 Persona</option>
+								<option>2 Personas</option>
+								<option>3 Personas</option>
+								<option>4 Personas</option>
+								<option>5 Personas</option>
+								<option>Más</option>
+							</select>
+						</div>
+						<div class="col-md-4 form-right">
+							<label><i class="glyphicon glyphicon-time"></i> Hora :</label>
+							<input type="time">
+						</div>
+						<div class="clearfix"> </div>
+						<div class="make wow shake" data-wow-duration="1s" data-wow-delay=".5s">
+						  <input type="submit" value="Reservar">
+						</div>
+					</form>
+
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>	 -->
+	<!--//reservacion-->
+
+<!--Gallery-->
+<div class="galeria" id="galeria">
+	<div class="container">
+		<h3 class="tittle">Galería</h3>
+		<div class="arrows-serve"><img src="images/border.png" alt="border"></div>
+				<div class="galeria-grids">
+					<div class="col-md-6 baner-top wow fadeInRight animated" data-wow-delay=".5s">
+						<a href="images/g1.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/food.png" alt="Cochinita Pibil" />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>Fonda del factor</h4>
+										<span class="separator"></span>
+										<p>Texto Opcional.</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 baner-top wow fadeInLeft animated" data-wow-delay=".5s">
+						<a href="images/g2.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/food2.png" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4></h4>
+										<span class="separator"></span>
+										<p></p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/c1.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/food3.png" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4></h4>
+										<span class="separator"></span>
+										<p></p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 baner-top ban-mar wow fadeInDown animated" data-wow-delay=".5s">
+						<a href="images/c2.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/food4.png" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4></h4>
+										<span class="separator"></span>
+										<p></p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="images/c3.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/food5.png" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4></h4>
+										<span class="separator"></span>
+										<p></p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 baner-top ban-mar wow fadeInDown animated" data-wow-delay=".5s">
+						<a href="images/c4.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g2.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4></h4>
+										<span class="separator"></span>
+										<p></p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 baner-top wow fadeInRight animated" data-wow-delay=".5s">
+						<a href="images/g7.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g7.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4></h4>
+										<span class="separator"></span>
+										<p></p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 baner-top wow fadeInLeft animated" data-wow-delay=".5s">
+						<a href="images/g8.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g8.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4></h4>
+										<span class="separator"></span>
+										<p></p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+	</div>
+<!-- //gallery -->
+
+  <!--bottom-->
+	    <div class="bottom">
+		<div class="container">
+		       <div class="bottom-top">
+			    <h3 class=" wow flipInX"  data-wow-duration="1s" data-wow-delay=".3s">Fonda del factor</h3>
+				<span>Comida tradicional mexicana</span>
+				   <p class="wow slideInDown" data-wow-duration="1s" data-wow-delay=".5s">Texto opcional, igual se puede quitar esta parte, es solo un espacio por si necesitas o quieres poner mas información.</p>
+				   <!-- <div class="start wow flipInX"  data-wow-duration="1s" data-wow-delay=".3s">
+						     <a href="single.html" class="hvr-bounce-to-bottom"></a>
+						  </div> -->
+			   </div>
+		</div>
+	</div>
+
+ 	<div class="clearfix"></div>
+
+	 <!--/contact-->
+	 <!-- <div id="contactUsMap" class="big-map"></div> -->
+
+
+	 <div class="section-contact" id="contact">
+	    <div class="container">
+           <div class="contact-main">
+				    <div class="col-md-6 contact-grid wow fadeInUp"  data-wow-duration="1s" data-wow-delay=".3s">
+					<h3 class="tittle wow bounceIn"  data-wow-duration=".8s" data-wow-delay=".2s">Contacto</h3>
+						<div class="arrows-three"><img src="images/border.png" alt="border"></div>
+							<p class="wel-text wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".4s">Tu opinión es muy importante para nosotros.</p>
+						<form action="contacto.php" role="form" id="contact-form" method="post">
+					  		<div class="field name-box">
+							<input name="name" type="text" id="name" placeholder="Tu nombre y apellido" required="true"/>
+							<label for="name">Nombre</label>
+							<span class="ss-icon">check</span>
+					  		</div>
+					  
+					  		<div class="field email-box">
+								<input type="text" id="email" placeholder="tucorreo@email.com" required="true"/>
+								<label for="email">Email</label>
+								<span class="ss-icon">check</span>
+					  		</div>
+					  
+					  		<div class="field msg-box">
+								<textarea id="msg" rows="4" placeholder="Valoramos tu opinión..." required="true"/ ></textarea>
+								<label for="msg">Mensaje</label>
+								<span class="ss-icon">check</span>
+					  		</div>
+							<div class="send wow shake"  data-wow-duration="1s" data-wow-delay=".3s">
+								<input type="submit" value="Send" >
+							</div>
+					 	</form>
+					</div>
+
+					<div class="col-md-4 col-md-offset-2">
+    		        	<div class="info info-horizontal">
+    						<div class="icon icon-primary">
+    							<i class="material-icons">pin_drop</i>
+    						</div>
+    						<div class="description">
+    							<h4 class="info-title">Visítanos</h4>
+    							<p> Av. de la Paz 47, San Ángel,<br>
+                                    Alvaro Obregón, 01000,<br>
+                                    Ciudad de México
+    							</p>
+    						</div>
+    		        	</div>
+                        <div class="info info-horizontal">
+    						<div class="icon icon-primary">
+    							<i class="material-icons">phone</i>
+    						</div>
+    						<div class="description">
+    							<h4 class="info-title">Haz tu reservación</h4>
+    							<p> E-mail<br>
+    								<a href="mailto:reservaciones@fondadelfactor.mx">reservaciones@fondadelfactor.mx</a>
+    							<p> Teléfonos<br>
+                                    <a href="tel://015571555023">01(55) 7155 5023</a><br>
+                                    <a href="tel://015571555000">01(55) 7155 5000</a><br>
+                                    Martes - Domingo, 8:00-22:00
+    							</p>
+    						</div>
+    		        	</div>
+					</div>
+					
+						<div class="clearfix"> </div>
+			      </div>
+				   <!--map-->
+				    <div class="map wow fadeInDown" data-wow-duration=".8s" data-wow-delay=".5s">
+					  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d555.7334911856785!2d-99.18904030271649!3d19.34667896562038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fff8136f1503%3A0xe12ae0b7968be315!2sAvenida+de+la+Paz+47%2C+San+%C3%81ngel+TNT%2C+San+%C3%81ngel%2C+01000+Ciudad+de+M%C3%A9xico%2C+D.F.!5e0!3m2!1ses!2smx!4v1468646037415" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+				<!--//map-->
+			 </div>
+		</div>
+		<!--//contact-->
+<!--footer-->
+		<div class="footer text-center">
+						<div class="btn-juts-icon">
+							<button class="btn btn-fab btn-facebook">
+								<i class="fa fa-facebook"> </i>
+							</button>
+							<button class="btn btn-fab btn-instagram">
+    							<i class="fa fa-instagram"> </i>
+							</button>
+							<br>
+							<p class="copy-right wow fadeInUp"  data-wow-duration="1s" data-wow-delay=".3s">&copy; 2016 Fonda del Factor. All rights reserved.</p>
+
+					 </div>
+	     </div>
+		<!--start-smooth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+								<!--end-smooth-scrolling-->
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>
